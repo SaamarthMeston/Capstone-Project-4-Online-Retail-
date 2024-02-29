@@ -9,11 +9,11 @@ This is a transnational data which contains all the transactions occurring betwe
 |---------------|------|------|-------------|-------------|-------|---------------|
 |InvoiceNo|ID|Categorical| |a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation| |no|
 |StockCode|ID|Categorical| |a 5-digit integral number uniquely assigned to each distinct product| |no|
-|Description|Feature|Categorical| |product name| |no|
+|Description|Feature|Categorical| |product name| |1454|
 |Quantity|Feature|Integer| |the quantities of each product (item) per transaction| |no|
 |InvoiceDate|Feature|Date| |the day and time when each transaction was generated| |no|
 |UnitPrice|Feature|Continuous| |product price per unit| sterling |no|
-|CustomerID|Feature|Continuous| |a 5-digit integral number uniquely assigned to each customer| |no|
+|CustomerID|Feature|Continuous| |a 5-digit integral number uniquely assigned to each customer| |135080|
 |Country|Feature|Continuous| |the name of the country where each customer resides| |no|
 
 This Notebook mainly has three sections :-
